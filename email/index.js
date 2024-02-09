@@ -12,14 +12,14 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
   service: 'outlook',
   auth: {
-    user: 'stephany.justino@sptech.school',
-    pass: '#Gf24007915890'
+    user: '#',
+    pass: '#'
   }
 });
 
 var mailOptions = {
-  from: 'stephany.justino@sptech.school',
-  to: 'stephany.justino@sptech.school',
+  from: '#',
+  to: '#',
   subject: 'Enviado email com node js. TESTE ',
   text: 'Estou muito feliz em anunciar que finalmente consegui fazer o nodemailer funcionar! Depois de passar horas tentando, finalmente consegui entender como configurar o nodemailer para enviar emails.'
 };
